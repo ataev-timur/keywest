@@ -1,0 +1,22 @@
+{
+    "name": "ataev-timur/keywest",
+    "description": "TestTask CSV Parser",
+    "keywords": ["csv", "parser"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timur Ataev",
+            "email": "ataevtimur@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=5.6.0",
+        "league/csv" : "7.1.2"
+    },
+    "autoload": {
+      "psr-4": {
+          "Ataev\\KeyWest\\" : "src/"
+      }
+    }
+}
